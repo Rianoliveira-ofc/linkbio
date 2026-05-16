@@ -1,0 +1,49 @@
+:root {
+   --branco: white;
+   --preto: black;
+   --cinza: rgb(68, 68, 68);
+}
+
+@font-face {
+  font-family: 'fontetitulo';
+  src: url('font/Story_Script/StoryScript-Regular.ttf') format('truetype');
+}
+body {
+    margin: 0px;
+    background-image: url(img/fundo.png);
+    background-size: cover;
+    height: 750px;
+    color: var(--preto);
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+header{
+    font-family: 'fontetitulo';
+    font-size: 36px;
+    margin-top: 90px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: var(--branco);
+
+}
+
+.cards {
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    margin-top: 30px;
+    background-color: var(--branco);
+    border-radius: 50px;
+    display: flex;
+    transition: 0.7s;
+}
+
+.cards:hover {
+    transform: scale(1.05) translateY(-15px);
+    box-shadow: 0px 0px 10px 1px var(--branco);
+}
