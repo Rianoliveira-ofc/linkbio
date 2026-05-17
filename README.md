@@ -109,7 +109,7 @@ Exemplo do efeito hover:
 
 # Como Executar
 
-Acesse o Link: "###"
+Acesse o Link: (https://rianoliveira-ofc.github.io/linkbio/)
 ---
 
 # Autor
